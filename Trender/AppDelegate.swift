@@ -1,10 +1,10 @@
-//
-//  AppDelegate.swift
-//  Trend
-//
-
-//  Copyright (c) 2016 Liu Cheng. All rights reserved.
-//
+/*
+ Copyright (C) 2016 Apple Inc. All Rights Reserved.
+ See LICENSE.txt for this sample’s licensing information
+ 
+ Abstract:
+ The application delegate class that starts TVML.
+ */
 
 import UIKit
 import TVMLKit
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     var appController: TVApplicationController?
     
-    static let TVBaseURL = "http://10.52.120.149:9001/"
+    static let TVBaseURL = "http://localhost:9001/"
     
     static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
     
@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]? = [:]) -> Bool {
         // Override point for customization after application launch.
-        window = UIWindow(frame: UIScreen.main().bounds)
+        window = UIWindow(frame: UIScreen.main.bounds)
         
         /*
          Create the TVApplicationControllerContext for this application
@@ -61,7 +61,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     // MARK: TVApplicationControllerDelegate
     
-    func appController(_ appController: TVApplicationController, didFail error: NSError) {
+    func appController(_ appController: TVApplicationController, didFail error: Error) {
         print("\(#function) invoked with error: \(error)")
         
         let title = "Error Launching Application"

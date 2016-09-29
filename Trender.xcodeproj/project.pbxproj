@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77DDB8891D342E3500305E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8881D342E3500305E46 /* AppDelegate.swift */; };
-		77DDB88D1D342E3500305E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DDB88C1D342E3500305E46 /* Assets.xcassets */; };
+		776A92021D9DA7F200ABADFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A91FF1D9DA7F200ABADFD /* AppDelegate.swift */; };
+		776A92031D9DA7F200ABADFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776A92001D9DA7F200ABADFD /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		77DDB8851D342E3500305E46 /* Trend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trend.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77DDB8881D342E3500305E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77DDB88B1D342E3500305E46 /* application.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
-		77DDB88C1D342E3500305E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77DDB88E1D342E3500305E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776A91FF1D9DA7F200ABADFD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Trender/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		776A92001D9DA7F200ABADFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Trender/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		776A92011D9DA7F200ABADFD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Trender/Info.plist; sourceTree = SOURCE_ROOT; };
+		77DDB8851D342E3500305E46 /* Trender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +32,7 @@
 		77DDB87C1D342E3500305E46 = {
 			isa = PBXGroup;
 			children = (
-				77DDB8871D342E3500305E46 /* Trend */,
+				77DDB8871D342E3500305E46 /* Trender */,
 				77DDB8861D342E3500305E46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,36 +40,28 @@
 		77DDB8861D342E3500305E46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77DDB8851D342E3500305E46 /* Trend.app */,
+				77DDB8851D342E3500305E46 /* Trender.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		77DDB8871D342E3500305E46 /* Trend */ = {
+		77DDB8871D342E3500305E46 /* Trender */ = {
 			isa = PBXGroup;
 			children = (
-				77DDB8881D342E3500305E46 /* AppDelegate.swift */,
-				77DDB88C1D342E3500305E46 /* Assets.xcassets */,
-				77DDB88E1D342E3500305E46 /* Info.plist */,
-				77DDB88A1D342E3500305E46 /* Supporting Files */,
+				776A91FF1D9DA7F200ABADFD /* AppDelegate.swift */,
+				776A92001D9DA7F200ABADFD /* Assets.xcassets */,
+				776A92011D9DA7F200ABADFD /* Info.plist */,
 			);
+			name = Trender;
 			path = Trend;
-			sourceTree = "<group>";
-		};
-		77DDB88A1D342E3500305E46 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				77DDB88B1D342E3500305E46 /* application.js */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		77DDB8841D342E3500305E46 /* Trend */ = {
+		77DDB8841D342E3500305E46 /* Trender */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 77DDB8911D342E3500305E46 /* Build configuration list for PBXNativeTarget "Trend" */;
+			buildConfigurationList = 77DDB8911D342E3500305E46 /* Build configuration list for PBXNativeTarget "Trender" */;
 			buildPhases = (
 				77DDB8811D342E3500305E46 /* Sources */,
 				77DDB8821D342E3500305E46 /* Frameworks */,
@@ -80,9 +71,9 @@
 			);
 			dependencies = (
 			);
-			name = Trend;
+			name = Trender;
 			productName = Trend;
-			productReference = 77DDB8851D342E3500305E46 /* Trend.app */;
+			productReference = 77DDB8851D342E3500305E46 /* Trender.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -97,13 +88,13 @@
 				TargetAttributes = {
 					77DDB8841D342E3500305E46 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = C4V97NAX2K;
 						DevelopmentTeamName = "Liu Cheng";
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 77DDB8801D342E3500305E46 /* Build configuration list for PBXProject "Trend" */;
+			buildConfigurationList = 77DDB8801D342E3500305E46 /* Build configuration list for PBXProject "Trender" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -115,7 +106,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				77DDB8841D342E3500305E46 /* Trend */,
+				77DDB8841D342E3500305E46 /* Trender */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +116,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DDB88D1D342E3500305E46 /* Assets.xcassets in Resources */,
+				776A92031D9DA7F200ABADFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +127,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DDB8891D342E3500305E46 /* AppDelegate.swift in Sources */,
+				776A92021D9DA7F200ABADFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,10 +226,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Trend/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Trender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = top.willowcheng.Trend;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.trendmicro.trender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -248,9 +243,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = Trend/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Trender/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = top.willowcheng.Trend;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.trendmicro.trender;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -259,7 +257,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		77DDB8801D342E3500305E46 /* Build configuration list for PBXProject "Trend" */ = {
+		77DDB8801D342E3500305E46 /* Build configuration list for PBXProject "Trender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77DDB88F1D342E3500305E46 /* Debug */,
@@ -268,13 +266,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		77DDB8911D342E3500305E46 /* Build configuration list for PBXNativeTarget "Trend" */ = {
+		77DDB8911D342E3500305E46 /* Build configuration list for PBXNativeTarget "Trender" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77DDB8921D342E3500305E46 /* Debug */,
 				77DDB8931D342E3500305E46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
